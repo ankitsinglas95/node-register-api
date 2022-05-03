@@ -1,0 +1,33 @@
+{
+  "name": "registerapi",
+  "version": "1.0.0",
+  "description": "registration api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitsinglas95/node-js.git"
+  },
+  "author": "ankit singla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankitsinglas95/node-js/issues"
+  },
+  "homepage": "https://github.com/ankitsinglas95/node-js#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "chalk": "^5.0.1",
+    "color": "^4.2.3",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2",
+    "nodemon": "^2.0.16",
+    "package": "^1.0.1",
+    "pkill": "^2.0.0",
+    "yarn": "^1.22.18"
+  }
+}
